@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        release: [R2015aSP1, R2023a]
+        release: [R2015a, R2023a]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
