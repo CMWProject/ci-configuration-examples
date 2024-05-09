@@ -8,11 +8,11 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
         dayNum = {15};
         yearNum = {2021};
     end
-    
+    ver
+
     methods (Test)
         function testDayofyear(testCase,monthNum,dayNum,yearNum)
             % Convert numeric values to mm/dd/yyyy string
-	    ver
             % Note: MATLAB will automatically convert numbers to strings
             % when performing number+string arithmetic
             dateStr = monthNum + "/" + dayNum + "/" + yearNum;
