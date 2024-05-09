@@ -8,7 +8,6 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
         dayNum = {15};
         yearNum = {2021};
     end
-    ver
 
     methods (Test)
         function testDayofyear(testCase,monthNum,dayNum,yearNum)
@@ -26,6 +25,7 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
             
             % Verify that the actual result matches the expected result
             testCase.verifyEqual(doyActual,doyExpected)
+	    ver
         end
     end
     
