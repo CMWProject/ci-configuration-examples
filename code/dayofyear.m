@@ -11,7 +11,7 @@ function doy = dayofyear(mmddyy,dateFormat)
 arguments
     mmddyy string;
     dateFormat (1,1) string {mustBeMember(dateFormat,["mm/dd/yyyy","dd/mm/yyyy"])} = "mm/dd/yyyy";
-endd
+end
 
 % Check that mmddyy was provided in the appropriate format
 if numel(split(mmddyy,"/")) ~= 3
