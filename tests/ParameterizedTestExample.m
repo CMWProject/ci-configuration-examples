@@ -8,7 +8,8 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
         dayNum = {15};
         yearNum = {2021};
     end
-
+ 	ver
+      	 disp('Hello World')
     methods (Test)
         function testDayofyear(testCase,monthNum,dayNum,yearNum)
             % Convert numeric values to mm/dd/yyyy string
@@ -25,11 +26,9 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
             
             % Verify that the actual result matches the expected result
             testCase.verifyEqual(doyActual,doyExpected)
-	    ver
-
+	   
         end
 
-      	 disp('Hello World')
     end
     
 end
