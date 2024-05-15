@@ -50,4 +50,4 @@ end
 doy = sum(daysPerMonth(1:d.Month-1)) + d.Day;
 
 
-endsts('IncludeSubfolders', true); assertSuccess(results);
+end
