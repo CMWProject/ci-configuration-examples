@@ -48,6 +48,5 @@ end
 
 % Calculate day of year
 doy = sum(daysPerMonth(1:d.Month-1)) + d.Day;
-disp (doy)
 
 end
