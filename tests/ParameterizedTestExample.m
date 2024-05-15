@@ -26,8 +26,10 @@ classdef ParameterizedTestExample < matlab.unittest.TestCase
             % Verify that the actual result matches the expected result
             testCase.verifyEqual(doyActual,doyExpected)
 	    ver
-     	 disp('Hello World')
+
         end
+
+      	 disp('Hello World')
     end
     
 end
