@@ -1,5 +1,3 @@
-
-
 function doy = dayofyear(mmddyy,dateFormat)
 %DAYOFYEAR Converts a date string ("mm/dd/yyyy") to the day number of the
 %year.
